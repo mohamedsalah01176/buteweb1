@@ -1,0 +1,7 @@
+.land{
+    position: relative;
+    
+    background-image: url("../../../public/bg.png");
+    background-size: cover;
+    min-height: 80vh;
+}
