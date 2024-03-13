@@ -23,7 +23,7 @@ export default function Pricing() {
                             mode === "month"?
                             <h3><span className='font-bold text-3xl'>${item.priceM}</span>/Month</h3>
                             :
-                            <h3><span className='font-bold text-3xl'>${item.priceY}</span>/Month</h3>
+                            <h3><span className='font-bold text-3xl'>${item.priceY}</span>/Year</h3>
                         }
                         {item.isMostPopular?
                         <button className='w-full bg-sky-600 py-2 px-5 rounded-lg my-3 hover:bg-sky-500 transition-all duration-500'>Buy Now</button>
